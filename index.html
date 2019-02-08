@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Plus Ou Moins</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Plus ou Moins</h1>
+    </header>
+
+    <p class="action-message">Entrez un nombre</p>
+
+    <div class="choice">
+      <input id="input" type="number" onkeypress="clickLOL()" min="0" max="100">
+    </div>
+
+    <div class="submit-button">
+      <button id="button" onclick="submit()" type="button">Valider</button>
+    </div>
+
+    <div class="result">
+      <h1 id="result">+/-</h1>
+    </div>
+  </body>
+</html>
