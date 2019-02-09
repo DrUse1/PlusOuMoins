@@ -13,9 +13,6 @@ input::-webkit-inner-spin-button {
 }
 
 header {
-  width: 50%;
-  margin: auto;
-  margin-top: 10px;
   position: relative;
   background-color: white;
   color: #222;
