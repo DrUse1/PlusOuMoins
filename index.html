@@ -11,18 +11,24 @@
       <h1>Plus ou Moins</h1>
     </header>
 
-    <p class="action-message">Entrez un nombre</p>
-
-    <div class="choice">
-      <input id="input" type="number" onkeypress="clickLOL()" min="0" max="100">
+    <div id="div-start_button" class="div-start_button">
+      <button class="button start_button" onclick="startGame()" type="button">Lancer</button>
     </div>
 
-    <div class="submit-button">
-      <button id="button" onclick="submit()" type="button">Valider</button>
-    </div>
+    <div id="game" class="game">
+      <p id="action-message" class="action-message">Devinez le nombre compris entre 0 et 100</p>
 
-    <div class="result">
-      <h1 id="result">+/-</h1>
+      <div class="choice">
+        <input class="input" id="input" type="number" onkeypress="enter()" min="0" max="100">
+      </div>
+
+      <div class="div-submit_button">
+        <button class="button" id="submit_button" onclick="submit()" type="button">Valider</button>
+      </div>
+
+      <div id="div-result" class="result">
+        <h1 id="result">+/-</h1>
+      </div>
     </div>
   </body>
 </html>
