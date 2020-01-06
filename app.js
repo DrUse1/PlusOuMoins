@@ -1,4 +1,4 @@
-var ntf = Math.floor(Math.random() * 1001);
+var ntf = Math.floor(Math.random() * 101);
 
 function submit() {
   if (document.getElementById("submit_button").innerHTML == "Valider") {
